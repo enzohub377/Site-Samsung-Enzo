@@ -762,6 +762,10 @@ span {
 
 @media (max-width: 768px) {
 
+    body{
+        background-color: red;
+    }
+    
     #Samsung {
         margin-left: 10px;
     }
