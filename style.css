@@ -172,8 +172,8 @@ input:hover {
     border: none;
     border-radius: 25px;
     padding: 8px;
-    background-color: #2189ff;
-    color: red;
+    background-color: red;
+    color: white;
 }
 
 article {
