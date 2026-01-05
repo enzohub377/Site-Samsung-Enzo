@@ -35,6 +35,7 @@ html {
 }
 
 body {
+    background-color: red;
     margin-top: 80px;
 }
 
@@ -172,7 +173,7 @@ input:hover {
     border: none;
     border-radius: 25px;
     padding: 8px;
-    background-color: red;
+    background-color: #2189ff;
     color: white;
 }
 
