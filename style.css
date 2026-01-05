@@ -35,7 +35,6 @@ html {
 }
 
 body {
-    background-color: yellow;
     margin-top: 80px;
 }
 
@@ -762,10 +761,6 @@ span {
 
 @media (max-width: 768px) {
 
-    body{
-        background-color: red;
-    }
-    
     #Samsung {
         margin-left: 10px;
     }
