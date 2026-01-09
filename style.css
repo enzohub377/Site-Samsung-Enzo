@@ -760,6 +760,75 @@ span {
     margin-right: 20px;
 }
 
+@media (max-width: 360px) {
+
+    h2 {
+        font-size: 24px;
+        width: 90%;
+    }
+
+    input {
+        width: 120px;
+    }
+
+    .ItensMobile,
+    .cardMobile {
+        width: 90%;
+        height: auto;
+    }
+
+    .ItensTV-AV,
+    .cardTV-AV,
+    .overlayTV-AV {
+        width: 95%;
+        height: auto;
+    }
+
+    .ItensAcessorios,
+    .cardAcessorios {
+        width: 95%;
+        height: auto;
+    }
+
+    .EscolhaCor {
+        width: 95%;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    #pontualidadeCores {
+        width: 95%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+
+    h2 {
+        font-size: 28px;
+        width: 90%;
+    }
+
+    input {
+        width: 140px;
+    }
+
+    .ItensMobile,
+    .cardMobile {
+        width: 85%;
+        height: auto;
+    }
+
+    .ItensTV-AV,
+    .cardTV-AV {
+        width: 90%;
+        height: auto;
+    }
+
+    .EscolhaCor {
+        width: 90%;
+    }
+}
+
 @media (max-width: 768px) {
 
     #Samsung {
@@ -806,87 +875,87 @@ span {
         width: auto;
     }
 
-    .EscolhaCor{
+    .EscolhaCor {
         margin: 20px 30px;
     }
 
-    #Mobile{
+    #Mobile {
         gap: 23.5px;
     }
 
-    #TV-AV{
+    #TV-AV {
         padding: 20px 30px;
         gap: 35px;
     }
 
-    .ItensTV-AV{
+    .ItensTV-AV {
         height: 100%;
         width: 100%;
     }
 
-    .cardTV-AV{
+    .cardTV-AV {
         height: 100%;
         width: 100%;
     }
 
-    .overlayTV-AV{
+    .overlayTV-AV {
         height: 97.5%;
         width: 100%;
     }
 
-    #Computadores-Monitores{
+    #Computadores-Monitores {
         gap: 35px;
     }
 
-    .ItensComputadores-Monitores{
+    .ItensComputadores-Monitores {
         transform: scale(.95);
         height: 100%;
         width: 100%;
     }
 
-    .cardComputadores-Monitores{
+    .cardComputadores-Monitores {
         transform: scale(.95);
         height: 80%;
         width: 90%;
     }
 
-    .overlayComputadores-Monitores{
+    .overlayComputadores-Monitores {
         transform: scale(.95);
         height: 97.5%;
         width: 100%;
     }
 
-    #Acessorios{
+    #Acessorios {
         gap: 40px;
     }
 
-    .ItensAcessorios{
+    .ItensAcessorios {
         transform: scale(.95);
         height: 100%;
         width: 100%;
     }
 
-    .cardAcessorios{
+    .cardAcessorios {
         transform: scale(.95);
         height: 80%;
         width: 80%;
     }
-    
-    .overlayAcessorios{
+
+    .overlayAcessorios {
         transform: scale(.95);
         height: 99%;
         width: 100%;
     }
 
-    #container-atalhosDiversos{
+    #container-atalhosDiversos {
         gap: 20px;
     }
 
-    .Diversos{
+    .Diversos {
         transform: scale(.90);
     }
 
-    #Autor{
+    #Autor {
         align-items: center;
         gap: 100px;
         display: flex;
@@ -894,13 +963,13 @@ span {
         flex-wrap: wrap;
     }
 
-    #ContatosAutor{
+    #ContatosAutor {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    #RedesAutor{
+    #RedesAutor {
         padding: 15px;
         gap: 20px;
         display: flex;
@@ -908,11 +977,11 @@ span {
         flex-wrap: wrap;
     }
 
-    #RedeInstagram{
+    #RedeInstagram {
         height: 95px;
     }
 
-    .Rede{
+    .Rede {
         height: 70px;
     }
 
@@ -986,7 +1055,7 @@ span {
         top: -7px;
     }
 
-    body{
+    body {
         margin: 0 auto;
         width: 100vw;
         height: 100dvh;
