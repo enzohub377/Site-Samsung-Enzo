@@ -945,7 +945,8 @@ span {
         top: 0;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: 100dvh;
+        padding-bottom: 40px;
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
@@ -983,5 +984,11 @@ span {
     nav.active .menu-burger::after {
         transform: rotate(135deg);
         top: -7px;
+    }
+
+    body{
+        margin: 0 auto;
+        width: 100vw;
+        height: 100dvh;
     }
 }
