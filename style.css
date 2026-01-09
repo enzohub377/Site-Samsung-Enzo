@@ -762,6 +762,14 @@ span {
 
 @media (max-width: 360px) {
 
+    #Novidade,
+    #Mobile,
+    #TV-AV,
+    #Computadores-Monitores,
+    #Acessorios {
+        background-attachment: scroll;
+    }
+
     h2 {
         font-size: 24px;
         width: 90%;
@@ -803,6 +811,14 @@ span {
 
 @media (min-width: 361px) and (max-width: 480px) {
 
+    #Novidade,
+    #Mobile,
+    #TV-AV,
+    #Computadores-Monitores,
+    #Acessorios {
+        background-attachment: scroll;
+    }
+
     h2 {
         font-size: 28px;
         width: 90%;
@@ -830,6 +846,14 @@ span {
 }
 
 @media (max-width: 768px) {
+
+    #Novidade,
+    #Mobile,
+    #TV-AV,
+    #Computadores-Monitores,
+    #Acessorios {
+        background-attachment: scroll;
+    }
 
     #Samsung {
         margin-left: 10px;
